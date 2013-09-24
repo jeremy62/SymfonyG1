@@ -1,0 +1,12 @@
+{% extends 'JBMonPremierBundle::layout.html.twig' %}
+
+{% block title %}
+   {{ parent() }}
+   - Tp 2 SLAM4
+{% endblock %}
+
+{% block body %}		
+   {% include 'JBMonPremierBundle::phrase.html.twig' %}
+   <p>{{block('title')}}</p>
+   <h2>Le but est de bien gerer l'architecture globale de ce framwork</h2>
+{% endblock %}

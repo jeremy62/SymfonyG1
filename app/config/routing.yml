@@ -1,0 +1,8 @@
+jb_gsb:
+    resource: "@JBGSBBundle/Resources/config/routing.yml"
+    prefix:   /GSB
+
+jb_mon_premier:
+    resource: "@JBMonPremierBundle/Resources/config/routing.yml"
+    prefix:   /jb
+

@@ -1,0 +1,7 @@
+parameters:
+#    jb_mon_premier.example.class: JB\MonPremierBundle\Example
+
+services:
+#    jb_mon_premier.example:
+#        class: %jb_mon_premier.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

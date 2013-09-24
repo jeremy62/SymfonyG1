@@ -1,0 +1,7 @@
+jb_mon_premier_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: JBMonPremierBundle:Default:index }
+
+JBMonPremierBundle_accueil:
+    pattern:  /hello/
+    defaults: { _controller: JBMonPremierBundle:Default:index }

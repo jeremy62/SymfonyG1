@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bienvenu(e){% endblock %}</title>
+        {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/JBGSB/css/style.css') }}" type="text/css" media="all" />
+
+		{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <div id="moncadre">
+            <div id="cadrehaut"><img src="{{ asset('bundles/JBGSB/images/logo.gif') }}" alt="logo" width="" height="" />
+
+                <div id="textcadrehaut"><h1>Le laboratoire pharmaceutique GSB: Galaxy-Swiss Bourdin</h1></div>
+            </div>
+            <div class="cadredumenudroite"><h1>Le laboratoire:</h1>
+                <h2>Le secteur d'activité</h2>
+<p>L’industrie pharmaceutique est un secteur très lucratif dans lequel le mouvement de fusion acquisition
+est très fort. Les regroupements de laboratoires ces dernières années ont donné naissance à des
+entités gigantesques au sein desquelles le travail est longtemps resté organisé selon les anciennes
+structures.</p>
+<p>Des déboires divers récents autour de médicaments ou molécules ayant entraîné des complications
+médicales ont fait s'élever des voix contre une partie de l'activité des laboratoires : la visite médicale,
+réputée être le lieu d' arrangements entre l'industrie et les praticiens, et tout du moins un terrain
+d'influence opaque.</p>
+<h2>L'entreprise</h2>
+<p>Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy
+(spécialisé dans le secteur des maladies virales dont le SIDA et les hépatites) et le conglomérat
+européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui même déjà union
+de trois petits laboratoires .</p>
+<p>En 2009, les deux géants pharmaceutiques ont uni leurs forces pour créer un leader de ce secteur
+industriel. L'entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris.
+Le siège social de la multinationale est situé à Philadelphie, Pennsylvanie, aux Etats-Unis.</p>
+<h2>Réorganisation</h2>
+<p>Une conséquence de cette fusion, est la recherche d'une optimisation de l’activité du groupe ainsi
+constitué en réalisant des économies d’échelle dans la production et la distribution des médicaments
+(en passant par une nécessaire restructuration et vague de licenciement), tout en prenant le meilleur
+des deux laboratoires sur les produits concurrents.</p>
+<p>L'entreprise compte 480 visiteurs médicaux en France métropolitaine (Corse comprise), et 60 dans les
+départements et territoires d'outre-mer. Les territoires sont répartis en 6 secteurs géographiques
+(Paris-Centre, Sud, Nord, Ouest, Est, DTOM Caraïbes-Amériques, DTOM Asie-Afrique).
+Une vision partielle de cette organisation est présentée ci-dessous.</p>
+                
+            </div>
+            <div class="cadredumenugauche">       
+
+                <ul class="niveau1">
+                    <li>
+                        Présentation
+                        <ul class="niveau2">
+                            <li><a href="#" title="aller à la section présentation">Activité</a></li>
+                            <li><a href="#" title="aller à la section présentation">L'entreprise</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Le SI
+                        <ul class="niveau2">
+                            <li><a href="#" title="aller à la section présentation">Description</a></li>
+                            <li><a href="#" title="aller à la section présentation">La gestion</a></li>
+                            <li><a href="#" title="aller à la section présentation">L'équipement</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Le Réseau
+                        <ul class="niveau2">
+                            <li><a href="#" title="aller à la section présentation">Répartition</a></li>
+                            <li><a href="#" title="aller à la section présentation">Ségmentation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer"><span class="blanctext">Copyright 2013-2014</span></div>
+    </body>
+        {% block body %}   
+
+
+
+{% endblock %}
+        {% block javascripts %}{% endblock %}
+
+</html>

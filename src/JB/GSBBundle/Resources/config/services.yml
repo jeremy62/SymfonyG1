@@ -1,0 +1,7 @@
+parameters:
+#    jbgsb.example.class: JB\GSBBundle\Example
+
+services:
+#    jbgsb.example:
+#        class: %jbgsb.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

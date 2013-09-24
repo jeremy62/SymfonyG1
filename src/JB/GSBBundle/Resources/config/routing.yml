@@ -1,0 +1,3 @@
+jb_gsb_homepage:
+    pattern:  /
+    defaults: { _controller: JBGSBBundle:Default:index }
